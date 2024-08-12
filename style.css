@@ -111,6 +111,9 @@ nav>ul>li>a{
     left: 20%;
     font-size: 2vw;
 }
+.second-page{
+     background-color: #ededed;
+}
 .section-1{
     width: 100%;
     text-align: center;
@@ -129,6 +132,7 @@ nav>ul>li>a{
     font-size: 1.5vw;
     font-weight: 700;
     margin-top: 2vw;
+    color: #666666;
 }
 .section-2{
     display: flex;
@@ -150,8 +154,11 @@ nav>ul>li>a{
 .sub-section-para{
     font-size: 1.5vw;
     margin-bottom: 1vw;
+    color: #666666;
+
 }
 .skill-box{
+    color: #666666;
     font-size: 1.5vw;
     padding: 1vw 1.5vw;
     margin-bottom: 1vw;
@@ -160,4 +167,8 @@ nav>ul>li>a{
     background-color: rgba(153, 153, 153, 0.2);
     border-radius: 5px;
     color: rgb(0, 0, 0);
+}
+
+.page-3{
+    background-color: #ffbf91;
 }
