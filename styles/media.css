@@ -15,10 +15,13 @@
   .section-2{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
     justify-content: center;
 
+}
+.sub-section{
+  width: 80vw;
 }
     .logo{
         width: 8vw;
