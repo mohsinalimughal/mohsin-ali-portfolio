@@ -10,19 +10,23 @@ html,body{
     width: 100%;
 }
 nav{
+
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-left: 20vw;
     padding-right: 20vw;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
     /* margin-top: 15px; */
     /* background-color: blue; */
 }
 .sticky{
     position: fixed;
-    top: 0%;
-    width: 100%;
+    top: 2%;
+    width: 98%;
     z-index: 1;
 }
 .logo{
