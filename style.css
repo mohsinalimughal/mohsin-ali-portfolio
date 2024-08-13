@@ -21,7 +21,7 @@ nav{
 }
 .sticky{
     position: fixed;
-    top: 3%;
+    top: 0%;
     width: 100%;
     z-index: 1;
 }
