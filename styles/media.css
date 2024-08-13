@@ -3,14 +3,19 @@
       background-color: lightgreen;
     }
     nav{
-        display: flex;
-        align-items: center;
-        justify-content: end;
-        background-color: white;
-        
-        /* margin-top: 15px; */
-        /* background-color: blue; */
-    }
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 20vw;
+      padding-right: 20vw;
+      background-color: rgb(255, 255, 255);
+      margin-left: 10px;
+      margin-right: 10px;
+      border-radius: 5px;
+      /* margin-top: 15px; */
+      /* background-color: blue; */
+  }
     .logo{
         width: 8vw;
         margin-right: 4vw;
