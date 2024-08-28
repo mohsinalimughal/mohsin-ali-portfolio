@@ -16,6 +16,7 @@ button {
     transition: 0.3s ease all;
     z-index: 1;
     margin-top: 2vw;
+    z-index: 0;
   }
   
   button:before {
