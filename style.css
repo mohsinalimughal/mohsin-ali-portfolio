@@ -68,6 +68,7 @@ nav > ul > li > a {
 .poster {
   width: 100%;
   z-index: 2;
+  margin-bottom: 0px;
 }
 .my-image {
   width: 30vw;
@@ -115,6 +116,7 @@ nav > ul > li > a {
 }
 .second-page {
   background-color: #ededed;
+  margin-top: 0px;
   
 }
 .section-1 {
