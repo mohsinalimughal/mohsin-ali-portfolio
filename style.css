@@ -48,7 +48,7 @@ nav > ul > li > a {
   background-color: rgb(255, 255, 255);
   width: 4vw;
   /* height: 20vw; */
-  border-radius: 5px;
+  border-radius: 0.2vw;
   align-items: center;
   padding-top: 0.5vw;
   padding-bottom: 0.5vw;
@@ -114,6 +114,7 @@ nav > ul > li > a {
 }
 .second-page {
   background-color: #ededed;
+  
 }
 .section-1 {
   width: 100%;
@@ -167,21 +168,21 @@ nav > ul > li > a {
   margin-right: 1vw;
   box-sizing: inherit;
   background-color: rgba(153, 153, 153, 0.2);
-  border-radius: 5px;
+  border-radius: 0.2vw;
   color: rgb(0, 0, 0);
 }
 
 .page-3 {
-  background-color: #e3e3e3;
+  background-color: #ffffff;
 }
 
 /* ------------------projects----------------- */
 
-.project-heading{
-    text-align: center;
-    font-size: 4vw;
-    font-weight: bold;
-    margin-top: 4vw;
+.project-heading {
+  font-size: 3.5vw;
+  font-weight: 700;
+  margin-top: 2vw;
+  margin-top: 4vw;
 }
 .project-text {
   text-align: center;
@@ -191,27 +192,95 @@ nav > ul > li > a {
   margin-top: 2vw;
   color: #666666;
 }
-.project-1{
+.project-1 {
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin-top: 5vw;
 }
 
-.project-1-img{
-    width: 50vw;
+.project-1-img {
+  width: 50vw;
 }
-.project-1-heading{
+.project-1-heading {
   font-weight: 0;
   font-size: 2.5vw;
   margin-bottom: 2vw;
   margin-top: 2vw;
   font-weight: 600;
 }
-.project-1-para{
+.project-1-para {
   font-size: 1.5vw;
   margin-bottom: 1vw;
   color: #666666;
   line-height: 2vw;
   width: 40vw;
+}
+/* ==========================PAGE-4================================== */
+.page-4{
+  padding-top: 6vw;
+  background-image: url(./resources/svg/background.svg);
+}
+.page-4-heading {
+  text-align: center;
+  font-size: 3.5vw;
+  font-weight: 700;
+}
+.page-4-text {
+text-align: center;
+  font-size: 1.5vw;
+  font-weight: lighter;
+  margin-top: 2vw;
+  color: #666666;
+}
+/* .form-box{
+  background-color: white;
+  width: 50vw;
+} */
+form{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  padding: 4vw;
+  border-radius: 0.5vw;
+  margin-top: 6vw;
+  margin-bottom: 4vw;
+  box-shadow: -0.5px -0.5px 10px rgb(168, 168, 168);
+}
+label{
+  font-size: 1vw;
+  color: #666666;
+  font-weight: bolder;
+  margin-bottom: 0.8vw;
+  margin-top: 2vw;
+}
+.input{
+    height: 4vw;
+    width: 100%;
+    border-radius: 0.5vw;
+    background-color: #eeeeee;
+    border: 0px;
+    padding-left: 1.5vw;
+    font-weight: bolder;
+    color: #e2e2e2;
+    font-size: 1vw;
+}
+
+textarea{
+  height: 15vw;
+  width: 100%;
+  border-radius: 0.5vw;
+  background-color: #eeeeee;
+  border: 0px;
+  padding-left: 1.5vw;
+  font-weight: bolder;
+  color: #e2e2e2;
+  font-size: 1vw;
+  padding-top: 1.2vw;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 40vw;
+  min-height: 40vw;
 }
