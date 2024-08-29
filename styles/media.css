@@ -1,3 +1,54 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
+                body{
+                  background-color: aqua;
+                }
+                nav{
+                  display: flex;
+                  justify-content: start;
+                  padding-left: 5vw;
+                }
+                .logo {
+                  width: 10vw;
+                }
+                .nav-manu{
+                  display: none;
                 
+                }
+                .poster{
+                  height: 130vw;
+                }
+                .my-image{
+                  width: 40vw;
+                  position: absolute;
+                  top: 50%;
+                  right: 30%;
+                }
+                .first-text{
+                  color: antiquewhite;
+                  width: 100vw;
+                  position: absolute;
+                  top: 30%;
+                  left: 13%;
+                }
+                .first-text > h1 {
+                  text-align: center;
+                  font-size: 1vw;
+                  color: #ffffff;
+                }
+                .first-text > h2 {
+                  font-size: 8vw;
+                }
+                .first-text > h3 {
+                  font-size: 5vw;
+                }
+                .first-text > h4 {
+                  font-size: 1.5vw;
+                  color: #ef7116;
+                }
+                .first-text > h5 {
+                  font-size: large;
+                }
+                .first-text > h6 {
+                  font-size: smaller;
+                }
   }

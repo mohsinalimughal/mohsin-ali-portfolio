@@ -37,6 +37,7 @@ nav > ul > li > a {
   text-decoration: none;
   color: rgb(66, 66, 66);
   font-weight: bolder;
+  font-size: 2vw;
 }
 .social-box {
   display: flex;
