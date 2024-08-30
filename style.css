@@ -29,6 +29,9 @@ nav {
 .logo {
   width: 8vw;
 }
+.sticky > i {
+  display: none;
+}
 nav > ul {
   display: flex;
   gap: 3vw;
@@ -117,7 +120,6 @@ nav > ul > li > a {
 .second-page {
   background-color: #ededed;
   margin-top: 0px;
-  
 }
 .section-1 {
   width: 100%;
@@ -219,8 +221,11 @@ nav > ul > li > a {
   line-height: 2vw;
   width: 40vw;
 }
+.media {
+  display: none;
+}
 /* ==========================PAGE-4================================== */
-.page-4{
+.page-4 {
   padding-top: 6vw;
   background-image: url(./resources/svg/background.svg);
 }
@@ -230,17 +235,18 @@ nav > ul > li > a {
   font-weight: 700;
 }
 .page-4-text {
-text-align: center;
+  text-align: center;
   font-size: 1.5vw;
   font-weight: lighter;
   margin-top: 2vw;
   color: #666666;
+  margin-left: 7vw;
 }
 /* .form-box{
   background-color: white;
   width: 50vw;
 } */
-form{
+form {
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -252,26 +258,26 @@ form{
   margin-bottom: 4vw;
   box-shadow: -0.5px -0.5px 10px rgb(168, 168, 168);
 }
-label{
+label {
   font-size: 1vw;
   color: #666666;
   font-weight: bolder;
   margin-bottom: 0.8vw;
   margin-top: 2vw;
 }
-.input{
-    height: 4vw;
-    width: 100%;
-    border-radius: 0.5vw;
-    background-color: #eeeeee;
-    border: 0px;
-    padding-left: 1.5vw;
-    font-weight: bolder;
-    color: #e2e2e2;
-    font-size: 1vw;
+.input {
+  height: 4vw;
+  width: 100%;
+  border-radius: 0.5vw;
+  background-color: #eeeeee;
+  border: 0px;
+  padding-left: 1.5vw;
+  font-weight: bolder;
+  color: #e2e2e2;
+  font-size: 1vw;
 }
 
-textarea{
+textarea {
   height: 15vw;
   width: 100%;
   border-radius: 0.5vw;
