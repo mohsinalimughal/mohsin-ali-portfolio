@@ -4,11 +4,13 @@
   box-sizing: border-box;
   list-style: none;
   font-family: sans-serif;
+  cursor: url('./resources/cursor.png') , auto;
 }
 html,
 body {
   height: 100%;
   width: 100%;
+  /* cursor: url('./resources/cursor.png') 10px 10px , auto; */
 }
 nav {
   display: flex;
