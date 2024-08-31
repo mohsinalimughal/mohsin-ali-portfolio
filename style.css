@@ -19,13 +19,15 @@ nav {
   padding-left: 20vw;
   padding-right: 20vw;
   background-color: white;
+  border-radius: 0.5vw;
+  margin-top: 1vw;
   /* margin-top: 15px; */
   /* background-color: blue; */
 }
 .sticky {
+  left: 1%;
   position: fixed;
-  top: 0%;
-  width: 100%;
+  width: 98%;
   z-index: 1;
 }
 .logo {
