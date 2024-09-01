@@ -336,7 +336,12 @@
     padding-left: 17vw;
     display: flex;
     margin-bottom: 0px;
-    font-size: 2vw;
+    font-size: 4vw;
     padding-bottom: 10vh;
+    padding-top: 10vw;
+  }
+  .footer-logo{
+    width: 20vw;
+    margin-bottom: 1vw;
   }
 }
