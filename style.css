@@ -233,6 +233,8 @@ nav > ul > li > a {
 .page-4 {
   padding-top: 6vw;
   background-image: url(./resources/svg/background.svg);
+  margin-bottom: 0px;
+  padding-bottom: 15vh;
 }
 .page-4-heading {
   text-align: center;
@@ -260,7 +262,7 @@ form {
   padding: 4vw;
   border-radius: 0.5vw;
   margin-top: 6vw;
-  margin-bottom: 4vw;
+  /* margin-bottom: 4vw; */
   box-shadow: -0.5px -0.5px 10px rgb(168, 168, 168);
 }
 label {
@@ -297,4 +299,33 @@ textarea {
   min-width: 100%;
   max-height: 40vw;
   min-height: 40vw;
+}
+/* ====================footer===================== */
+footer{
+  background-color: rgb(26, 26, 26);
+  color: #ededed;
+  padding: 6vw;
+  padding-left: 17vw;
+  display: flex;
+  margin-bottom: 0px;
+  font-size: 1vw;
+  padding-bottom: 10vh;
+}
+.footer-logo{
+  width: 10vw;
+  margin-bottom: 1vw;
+}
+
+.social{
+  margin-left: 20vw;
+  color: #b9b9b9;
+}
+.footer-social-text{
+  font-weight: 800;
+  margin-bottom: 1.5vw;
+}
+.footer-icons{
+  color: #e2e2e2;
+  font-size: 3vw;
+  margin-right: 1vw;
 }

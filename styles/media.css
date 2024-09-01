@@ -329,4 +329,14 @@
     max-height: 50vw;
     min-height: 50vw;
   }
+  footer{
+    background-color: rgb(26, 26, 26);
+    color: #ededed;
+    padding: 6vw;
+    padding-left: 17vw;
+    display: flex;
+    margin-bottom: 0px;
+    font-size: 2vw;
+    padding-bottom: 10vh;
+  }
 }
