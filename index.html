@@ -6,11 +6,7 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./styles/media.css" />
     <link rel="stylesheet" href="./styles/button.css" />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Mohsin Ali Mughal</title>
   </head>
   <body>
@@ -79,7 +75,7 @@
     </div>
     <div class="second-page">
       <div class="section-1">
-        <p class="section-1-heading animate__animated animate__fadeInUp ">ABOUT ME</p>
+        <p class="section-1-heading" data-aos="zoom-in">ABOUT ME</p>
         <div></div>
         <p class="section-1-text">
           Here you will find more information about me, what I do, and my
@@ -87,7 +83,7 @@
         </p>
       </div>
       <div class="section-2">
-        <div class="sub-section">
+        <div class="sub-section" data-aos="fade-up-left">
           <p class="sub-section-heading">GET TO NOW ME!</p>
           <p class="sub-section-para">
             I'm a Frontend Focused Web Developer building and managing the
@@ -109,7 +105,7 @@
           </p>
           <button class="button">CONTACT ME</button>
         </div>
-        <div class="sub-section">
+        <div class="sub-section" data-aos="fade-up-right">
           <p class="sub-section-heading">MY SKILLS</p>
           <div style="display: flex; flex-wrap: wrap">
             <div class="skill-box">PYTHON</div>
@@ -128,7 +124,7 @@
     </div>
     <div class="page-3">
       <div class="section-1">
-        <p class="project-heading animate__animated animate__fadeInUp">PROJECTS</p>
+        <p class="project-heading" data-aos="zoom-in">PROJECTS</p>
         <div></div>
         <p class="project-text">
           Here you will find some of the personal and clients projects that I
@@ -136,7 +132,7 @@
         </p>
       </div>
       `
-      <div class="project-1">
+      <div class="project-1" data-aos="fade-left">
         <p class="media">Dopefolio</p>
         <img class="project-1-img" src="./resources/project-1.png" alt="" />
         <div>
@@ -153,7 +149,7 @@
         </div>
       </div>
       <!-- ---------------------project-2------------------ -->
-      <div class="project-1">
+      <div class="project-1" data-aos="fade-right">
         <p class="media">CLI Game</p>
         <img class="project-1-img" src="./resources/project-2.png" alt="" />
         <div>
@@ -170,7 +166,7 @@
         </div>
       </div>
       <!-- ----------------------------project-3----------------------- -->
-      <div class="project-1">
+      <div class="project-1" data-aos="fade-left">
         <p class="media">Salt N Pepper</p>
         <img class="project-1-img" src="./resources/project-3.png" alt="" />
         <div>
@@ -224,6 +220,10 @@
 </footer>
     <!-- ==========================footer================================ -->
   </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({offset: 200,duration: 1000,});
+  </script>
   <!-- =========================Font owesome=============================== -->
   <script src="https://kit.fontawesome.com/50f27b17e7.js" crossorigin="anonymous"></script>
   <!-- =========================Font owesome=============================== -->
